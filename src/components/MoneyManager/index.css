@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.money-manager-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 7px;
+  margin: 20px;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.money-manager {
+  color: #06b6d4;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0;
+}
+
+.need-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.history {
+  padding-left: 30px;
+}
+
+.history-details-list {
+  display: flex;
+}
+
+.history-details {
+  margin-right: 15px;
+}
