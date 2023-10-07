@@ -10,8 +10,8 @@ const TransactionItem = props => {
 
   return (
     <li className="list-item">
-      <p>{title}</p>
-      <p>Rs {amount}</p>
+      <p className="list-sub-item">{title}</p>
+      <p className="list-sub-item">Rs {amount}</p>
       <p>{type}</p>
       <div>
         <button

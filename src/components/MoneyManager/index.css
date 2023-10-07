@@ -15,6 +15,35 @@
 .transaction-form {
   display: flex;
   flex-direction: column;
+  border: 1px solid #7e858e;
+  margin-top: 30px;
+  height: 300px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.history-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  padding: 20px;
+  margin-top: 30px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.history-heading {
+  color: #475569;
+}
+
+.transaction-heading {
+  font-size: 25px;
+  color: #475569;
+}
+
+.input {
+  margin-bottom: 10px;
 }
 
 .bottom-section {
@@ -38,4 +67,14 @@
 
 .list-item {
   margin-right: 20px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-width: 0;
+  height: 28px;
+  width: 50px;
+  align-self: center;
+  border-radius: 5px;
 }

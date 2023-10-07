@@ -2,3 +2,18 @@
   list-style-type: none;
   display: flex;
 }
+
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+
+.delete-button {
+  border-width: 0;
+  background-color: transparent;
+  margin-top: 17px;
+}
+
+.list-sub-item {
+  margin-right: 10px;
+}

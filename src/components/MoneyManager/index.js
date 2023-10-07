@@ -129,7 +129,7 @@ class MoneyManager extends Component {
         </div>
         <div className="bottom-section">
           <form className="transaction-form" onSubmit={this.onAddTransaction}>
-            <h1>Add Transaction</h1>
+            <h1 className="transaction-heading">Add Transaction</h1>
             <label className="input-label" htmlFor="title">
               TITLE
             </label>
@@ -168,10 +168,12 @@ class MoneyManager extends Component {
                 </option>
               ))}
             </select>
-            <button type="submit">Add</button>
+            <button type="submit" className="button">
+              Add
+            </button>
           </form>
-          <div>
-            <h1>History</h1>
+          <div className="history-section">
+            <h1 className="history-heading">History</h1>
             <div className="history-items">
               <ul>
                 <li className="list-items-heading">
@@ -179,6 +181,7 @@ class MoneyManager extends Component {
                   <p className="list-item">Amount</p>
                   <p className="list-item">Type</p>
                 </li>
+                <hr />
                 {transactionsList.map(eachTransaction => (
                   <TransactionItem
                     key={eachTransaction.id}
