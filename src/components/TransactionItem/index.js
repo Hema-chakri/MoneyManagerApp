@@ -1,4 +1,3 @@
-// Write your code here
 import './index.css'
 
 const TransactionItem = props => {
@@ -10,11 +9,11 @@ const TransactionItem = props => {
   }
 
   return (
-    <li className="table-row">
-      <p className="transaction-text">{title}</p>
-      <p className="transaction-text">Rs {amount}</p>
-      <p className="transaction-text">{type}</p>
-      <div className="delete-container">
+    <li className="list-item">
+      <p>{title}</p>
+      <p>Rs {amount}</p>
+      <p>{type}</p>
+      <div>
         <button
           className="delete-button"
           type="button"
